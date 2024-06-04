@@ -1,0 +1,6 @@
+ALTER TABLE tb_cliente
+ADD COLUMN email VARCHAR(255);
+ALTER TABLE tb_cliente ALTER COLUMN email SET NOT NULL;
+
+ALTER TABLE tb_produto
+ADD COLUMN marca VARCHAR(50) not null;
